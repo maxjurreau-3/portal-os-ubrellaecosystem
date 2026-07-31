@@ -1,0 +1,15 @@
+# ecosystem-operations/ci-cd/pipeline.yml
+# Example CI pipeline (declarative stub)
+name: Umbrella-CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install
+        run: echo "installing deps"
+      - name: Test
+        run: echo "running tests"
