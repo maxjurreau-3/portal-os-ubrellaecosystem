@@ -1,0 +1,10 @@
+{
+  "ui": {
+    "theme": "dark",
+    "defaultWindowWidth": 800,
+    "defaultWindowHeight": 600
+  },
+  "runtime": {
+    "maxWindows": 12
+  }
+}
