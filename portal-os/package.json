@@ -1,0 +1,13 @@
+{
+  "name": "portal-os",
+  "version": "3.0.0",
+  "description": "Portal‑OS v3 multi‑engine runtime",
+  "type": "module",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "esbuild src/main.jsx --bundle --outfile=dist/bundle.js --servedir=public --serve=8000",
+    "build": "esbuild src/main.jsx --bundle --outfile=dist/bundle.js --minify"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
