@@ -4,6 +4,7 @@
   "description": "Umbrella Ecosystem — Portal‑OS v3 and substrate layers (dev scaffold)",
   "type": "module",
   "scripts": {
+    "build": "cd portal-os && npm install --no-audit --no-fund && npm run build",
     "smoke": "node --input-type=module scripts/smoke-test.js"
   },
   "author": "",
