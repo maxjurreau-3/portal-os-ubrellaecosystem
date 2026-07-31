@@ -1,0 +1,10 @@
+{
+  "engines": [
+    "sim",
+    "xr",
+    "identity-physics",
+    "operators",
+    "games",
+    "substrate"
+  ]
+}
