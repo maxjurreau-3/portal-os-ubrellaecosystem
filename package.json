@@ -1,0 +1,12 @@
+{
+  "name": "umbrella-ecosystem",
+  "version": "0.1.0",
+  "description": "Umbrella Ecosystem — Portal‑OS v3 and substrate layers (dev scaffold)",
+  "type": "module",
+  "scripts": {
+    "smoke": "node --input-type=module scripts/smoke-test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
