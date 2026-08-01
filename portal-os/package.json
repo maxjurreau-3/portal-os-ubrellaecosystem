@@ -5,11 +5,12 @@
   "type": "module",
   "main": "src/index.jsx",
   "scripts": {
-    "start": "esbuild src/main.jsx --bundle --outfile=dist/bundle.js --servedir=public --serve=8000",
-    "build": "esbuild src/main.jsx --bundle --outfile=dist/bundle.js --minify"
+    "start": "cd public && vite",
+    "build": "cd public && vite build --outDir ../dist",
+    "preview": "cd public && vite preview --port 5000"
   },
   "dependencies": {},
   "devDependencies": {
-    "esbuild": "^0.18.20"
+    "vite": "^5.4.21"
   }
 }
