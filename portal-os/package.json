@@ -5,10 +5,9 @@
   "type": "module",
 
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "build": "cd portal-os && npm install && npm run build"
+}
+
 
   "dependencies": {
     "react": "^18.3.1",
